@@ -1,0 +1,70 @@
+2026-05-27T15:13:18.671Z pw:api navigating to "https://rahulshettyacademy.com/loginpagePractise/", waiting until "load"
+2026-05-27T15:13:18.923Z pw:api   "commit" event fired
+2026-05-27T15:13:18.923Z pw:api   navigated to "https://rahulshettyacademy.com/loginpagePractise/"
+2026-05-27T15:13:19.059Z pw:api   "domcontentloaded" event fired
+2026-05-27T15:13:21.876Z pw:api   "load" event fired
+2026-05-27T15:13:21.896Z pw:api waiting for selector "#username"
+2026-05-27T15:13:21.924Z pw:api   selector resolved to visible <input type="text" id="username" name="username" class=ΓÇª/>
+2026-05-27T15:13:21.930Z pw:api elementHandle.fill("rahulshettyacademy1")
+2026-05-27T15:13:21.930Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T15:13:21.944Z pw:api   element is visible, enabled and editable
+2026-05-27T15:13:21.956Z pw:api waiting for selector "input[name='password']"
+2026-05-27T15:13:21.960Z pw:api   selector resolved to visible <input id="password" type="password" name="password" clΓÇª/>
+2026-05-27T15:13:21.964Z pw:api elementHandle.fill("learning")
+2026-05-27T15:13:21.964Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T15:13:21.994Z pw:api   element is visible, enabled and editable
+2026-05-27T15:13:22.002Z pw:api waiting for selector "#signInBtn"
+2026-05-27T15:13:22.006Z pw:api   selector resolved to visible <input type="submit" name="signin" id="signInBtn" valueΓÇª/>
+2026-05-27T15:13:22.010Z pw:api attempting click action
+2026-05-27T15:13:22.010Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T15:13:22.038Z pw:api   element is visible, enabled and stable
+2026-05-27T15:13:22.038Z pw:api   scrolling into view if needed
+2026-05-27T15:13:22.039Z pw:api   done scrolling
+2026-05-27T15:13:22.044Z pw:api   performing click action
+2026-05-27T15:13:22.091Z pw:api   click action done
+2026-05-27T15:13:22.091Z pw:api   waiting for scheduled navigations to finish
+2026-05-27T15:13:22.093Z pw:api   navigations have finished
+2026-05-27T15:13:22.096Z pw:api waiting for selector "div[style*='block']"
+2026-05-27T15:13:23.073Z pw:api   "networkidle" event fired
+2026-05-27T15:13:24.086Z pw:api   selector resolved to <div class="alert alert-danger col-md-12">ΓÇª</div>
+2026-05-27T15:13:24.109Z pw:api LocatorAssertions.ToContainTextAsync with timeout 2000ms
+2026-05-27T15:13:24.110Z pw:api waiting for selector "div[style*='block']"
+2026-05-27T15:13:24.119Z pw:api   selector resolved to <div class="alert alert-danger col-md-12">ΓÇª</div>
+2026-05-27T15:13:24.130Z pw:api waiting for selector "#username"
+2026-05-27T15:13:24.134Z pw:api   selector resolved to visible <input type="text" id="username" name="username" class=ΓÇª/>
+2026-05-27T15:13:24.137Z pw:api elementHandle.fill("")
+2026-05-27T15:13:24.137Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T15:13:24.144Z pw:api   element is visible, enabled and editable
+2026-05-27T15:13:24.150Z pw:api waiting for selector "input[name='password']"
+2026-05-27T15:13:24.153Z pw:api   selector resolved to visible <input id="password" type="password" name="password" clΓÇª/>
+2026-05-27T15:13:24.156Z pw:api elementHandle.fill("")
+2026-05-27T15:13:24.156Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T15:13:24.162Z pw:api   element is visible, enabled and editable
+2026-05-27T15:13:24.166Z pw:api waiting for selector "#username"
+2026-05-27T15:13:24.170Z pw:api   selector resolved to visible <input type="text" id="username" name="username" class=ΓÇª/>
+2026-05-27T15:13:24.172Z pw:api elementHandle.fill("rahulshettyacademy")
+2026-05-27T15:13:24.172Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T15:13:24.179Z pw:api   element is visible, enabled and editable
+2026-05-27T15:13:24.183Z pw:api waiting for selector "input[name='password']"
+2026-05-27T15:13:24.187Z pw:api   selector resolved to visible <input id="password" type="password" name="password" clΓÇª/>
+2026-05-27T15:13:24.189Z pw:api elementHandle.fill("Learning@830$3mK2")
+2026-05-27T15:13:24.189Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T15:13:24.196Z pw:api   element is visible, enabled and editable
+2026-05-27T15:13:24.201Z pw:api waiting for selector "#signInBtn"
+2026-05-27T15:13:24.204Z pw:api   selector resolved to visible <input type="submit" name="signin" id="signInBtn" valueΓÇª/>
+2026-05-27T15:13:24.206Z pw:api attempting click action
+2026-05-27T15:13:24.206Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T15:13:24.239Z pw:api   element is visible, enabled and stable
+2026-05-27T15:13:24.239Z pw:api   scrolling into view if needed
+2026-05-27T15:13:24.240Z pw:api   done scrolling
+2026-05-27T15:13:24.242Z pw:api   performing click action
+2026-05-27T15:13:24.272Z pw:api   click action done
+2026-05-27T15:13:24.272Z pw:api   waiting for scheduled navigations to finish
+2026-05-27T15:13:24.273Z pw:api   navigations have finished
+2026-05-27T15:13:24.281Z pw:api waiting for selector ".card-body a >> nth=0"
+2026-05-27T15:13:26.313Z pw:api   "networkidle" event fired
+2026-05-27T15:13:26.313Z pw:api   "commit" event fired
+2026-05-27T15:13:26.313Z pw:api   navigated to "https://rahulshettyacademy.com/angularpractice/shop"
+2026-05-27T15:13:26.452Z pw:api   navigated to "https://rahulshettyacademy.com/angularpractice/shop"
+2026-05-27T15:13:26.454Z pw:api   selector resolved to <a href="#">iphone X</a>
+2026-05-27T15:13:26.494Z pw:api   "domcontentloaded" event fired

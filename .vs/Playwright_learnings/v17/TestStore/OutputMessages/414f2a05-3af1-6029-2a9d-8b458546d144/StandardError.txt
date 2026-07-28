@@ -1,0 +1,48 @@
+2026-05-28T13:13:04.158Z pw:api navigating to "https://rahulshettyacademy.com/client/#/auth/login", waiting until "load"
+2026-05-28T13:13:04.345Z pw:api   "commit" event fired
+2026-05-28T13:13:04.346Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/auth/login"
+2026-05-28T13:13:04.502Z pw:api   "domcontentloaded" event fired
+2026-05-28T13:13:04.538Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/auth/login"
+2026-05-28T13:13:05.320Z pw:api   "load" event fired
+2026-05-28T13:13:05.335Z pw:api waiting for Locator("#userEmail")
+2026-05-28T13:13:05.373Z pw:api   locator resolved to <input type="email" id="userEmail" _ngcontent-rwk-c31="" formcontrolname="userEmail" placeholder="email@example.com" class="form-control ng-untouched ng-pristine ng-invalid"/>
+2026-05-28T13:13:05.377Z pw:api   fill("prateik.mallik@outlook.com")
+2026-05-28T13:13:05.377Z pw:api attempting fill action
+2026-05-28T13:13:05.377Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T13:13:05.389Z pw:api waiting for Locator("#userPassword")
+2026-05-28T13:13:05.392Z pw:api   locator resolved to <input type="password" id="userPassword" _ngcontent-rwk-c31="" formcontrolname="userPassword" placeholder="enter your passsword" class="form-control ng-untouched ng-pristine ng-invalid"/>
+2026-05-28T13:13:05.394Z pw:api   fill("Dukekumar@96")
+2026-05-28T13:13:05.394Z pw:api attempting fill action
+2026-05-28T13:13:05.394Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T13:13:05.405Z pw:api waiting for Locator("#login")
+2026-05-28T13:13:05.407Z pw:api   locator resolved to <input id="login" name="login" type="submit" value="Login" _ngcontent-rwk-c31="" class="btn btn-block login-btn"/>
+2026-05-28T13:13:05.408Z pw:api attempting click action
+2026-05-28T13:13:05.408Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T13:13:05.443Z pw:api   element is visible, enabled and stable
+2026-05-28T13:13:05.443Z pw:api   scrolling into view if needed
+2026-05-28T13:13:05.445Z pw:api   done scrolling
+2026-05-28T13:13:05.454Z pw:api   performing click action
+2026-05-28T13:13:05.468Z pw:api   click action done
+2026-05-28T13:13:05.468Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T13:13:05.469Z pw:api   navigations have finished
+2026-05-28T13:13:05.473Z pw:api waiting for Locator("div.card-body").Last to be visible
+2026-05-28T13:13:05.616Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/dashboard/dash"
+2026-05-28T13:13:05.683Z pw:api   locator resolved to visible <div class="card-body" _ngcontent-rwk-c39="">ΓÇª</div>
+2026-05-28T13:13:05.692Z pw:api waiting for Locator("div.card-body").First.Locator("b")
+2026-05-28T13:13:05.694Z pw:api waiting for Locator("div.card-body").Nth(1).Locator("b")
+2026-05-28T13:13:05.695Z pw:api waiting for Locator("div.card-body").Nth(2).Locator("b")
+2026-05-28T13:13:05.696Z pw:api   locator resolved to <b _ngcontent-rwk-c39="">ADIDAS ORIGINAL</b>
+2026-05-28T13:13:05.697Z pw:api   locator resolved to <b _ngcontent-rwk-c39="">ZARA COAT 3</b>
+2026-05-28T13:13:05.698Z pw:api waiting for Locator("[routerlink=\"/dashboard/cart\"]")
+2026-05-28T13:13:05.699Z pw:api   locator resolved to <b _ngcontent-rwk-c39="">iphone 13 pro</b>
+2026-05-28T13:13:05.702Z pw:api   locator resolved to <button tabindex="0" _ngcontent-rwk-c38="" class="btn btn-custom" routerlink="/dashboard/cart">ΓÇª</button>
+2026-05-28T13:13:05.704Z pw:api attempting click action
+2026-05-28T13:13:05.704Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T13:13:05.726Z pw:api   element is visible, enabled and stable
+2026-05-28T13:13:05.726Z pw:api   scrolling into view if needed
+2026-05-28T13:13:05.726Z pw:api   done scrolling
+2026-05-28T13:13:05.730Z pw:api   performing click action
+2026-05-28T13:13:05.737Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/dashboard/cart"
+2026-05-28T13:13:05.759Z pw:api   click action done
+2026-05-28T13:13:05.759Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T13:13:05.765Z pw:api   navigations have finished

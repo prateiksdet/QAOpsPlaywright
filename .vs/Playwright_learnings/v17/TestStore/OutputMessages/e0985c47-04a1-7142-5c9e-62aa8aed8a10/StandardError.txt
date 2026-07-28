@@ -1,0 +1,65 @@
+2026-05-28T13:36:16.453Z pw:api navigating to "https://rahulshettyacademy.com/client/#/auth/login", waiting until "load"
+2026-05-28T13:36:16.589Z pw:api   "commit" event fired
+2026-05-28T13:36:16.589Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/auth/login"
+2026-05-28T13:36:16.723Z pw:api   "domcontentloaded" event fired
+2026-05-28T13:36:16.763Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/auth/login"
+2026-05-28T13:36:17.666Z pw:api   "load" event fired
+2026-05-28T13:36:17.674Z pw:api waiting for Locator("#userEmail")
+2026-05-28T13:36:17.720Z pw:api   locator resolved to <input type="email" id="userEmail" _ngcontent-dhf-c31="" formcontrolname="userEmail" placeholder="email@example.com" class="form-control ng-untouched ng-pristine ng-invalid"/>
+2026-05-28T13:36:17.722Z pw:api   fill("prateik.mallik@outlook.com")
+2026-05-28T13:36:17.722Z pw:api attempting fill action
+2026-05-28T13:36:17.723Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T13:36:17.735Z pw:api waiting for Locator("#userPassword")
+2026-05-28T13:36:17.738Z pw:api   locator resolved to <input type="password" id="userPassword" _ngcontent-dhf-c31="" formcontrolname="userPassword" placeholder="enter your passsword" class="form-control ng-untouched ng-pristine ng-invalid"/>
+2026-05-28T13:36:17.739Z pw:api   fill("Dukekumar@96")
+2026-05-28T13:36:17.739Z pw:api attempting fill action
+2026-05-28T13:36:17.739Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T13:36:17.747Z pw:api waiting for Locator("#login")
+2026-05-28T13:36:17.750Z pw:api   locator resolved to <input id="login" name="login" type="submit" value="Login" _ngcontent-dhf-c31="" class="btn btn-block login-btn"/>
+2026-05-28T13:36:17.750Z pw:api attempting click action
+2026-05-28T13:36:17.751Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T13:36:17.777Z pw:api   element is visible, enabled and stable
+2026-05-28T13:36:17.777Z pw:api   scrolling into view if needed
+2026-05-28T13:36:17.778Z pw:api   done scrolling
+2026-05-28T13:36:17.783Z pw:api   performing click action
+2026-05-28T13:36:17.791Z pw:api   click action done
+2026-05-28T13:36:17.791Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T13:36:17.792Z pw:api   navigations have finished
+2026-05-28T13:36:17.796Z pw:api waiting for Locator("div.card-body").Last to be visible
+2026-05-28T13:36:17.954Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/dashboard/dash"
+2026-05-28T13:36:18.013Z pw:api   locator resolved to visible <div class="card-body" _ngcontent-dhf-c39="">ΓÇª</div>
+2026-05-28T13:36:18.022Z pw:api waiting for Locator("div.card-body").First.Locator("b")
+2026-05-28T13:36:18.025Z pw:api   locator resolved to <b _ngcontent-dhf-c39="">ADIDAS ORIGINAL</b>
+2026-05-28T13:36:18.028Z pw:api waiting for Locator("div.card-body").Nth(1).Locator("b")
+2026-05-28T13:36:18.030Z pw:api   locator resolved to <b _ngcontent-dhf-c39="">ZARA COAT 3</b>
+2026-05-28T13:36:18.032Z pw:api waiting for Locator("div.card-body").Nth(1).Locator("i.fa.fa-shopping-cart")
+2026-05-28T13:36:18.035Z pw:api   locator resolved to <i _ngcontent-dhf-c39="" class="fa fa-shopping-cart"></i>
+2026-05-28T13:36:18.036Z pw:api attempting click action
+2026-05-28T13:36:18.036Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T13:36:18.059Z pw:api   element is visible, enabled and stable
+2026-05-28T13:36:18.059Z pw:api   scrolling into view if needed
+2026-05-28T13:36:18.060Z pw:api   done scrolling
+2026-05-28T13:36:18.063Z pw:api   performing click action
+2026-05-28T13:36:18.067Z pw:api   click action done
+2026-05-28T13:36:18.067Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T13:36:18.068Z pw:api   navigations have finished
+2026-05-28T13:36:18.072Z pw:api Expect "ToBeVisibleAsync" with timeout 5000ms
+2026-05-28T13:36:18.073Z pw:api waiting for Locator("text=Product Added To Cart")
+2026-05-28T13:36:18.617Z pw:api   "networkidle" event fired
+2026-05-28T13:36:19.432Z pw:api   locator resolved to <div role="alert" aria-label="Product Added To Cart" class="ng-tns-c4-2 toast-message ng-star-inserted"> Product Added To Cart </div>
+2026-05-28T13:36:19.439Z pw:api waiting for Locator("text=Product Added To Cart")
+2026-05-28T13:36:19.441Z pw:api   locator resolved to <div role="alert" aria-label="Product Added To Cart" class="ng-tns-c4-2 toast-message ng-star-inserted"> Product Added To Cart </div>
+2026-05-28T13:36:19.444Z pw:api waiting for Locator("[routerlink=\"/dashboard/cart\"]")
+2026-05-28T13:36:19.448Z pw:api   locator resolved to <button tabindex="0" _ngcontent-dhf-c38="" class="btn btn-custom" routerlink="/dashboard/cart">ΓÇª</button>
+2026-05-28T13:36:19.450Z pw:api attempting click action
+2026-05-28T13:36:19.450Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T13:36:19.477Z pw:api   element is visible, enabled and stable
+2026-05-28T13:36:19.477Z pw:api   scrolling into view if needed
+2026-05-28T13:36:19.478Z pw:api   done scrolling
+2026-05-28T13:36:19.481Z pw:api   performing click action
+2026-05-28T13:36:19.490Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/dashboard/cart"
+2026-05-28T13:36:19.537Z pw:api   click action done
+2026-05-28T13:36:19.537Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T13:36:19.539Z pw:api   navigations have finished
+2026-05-28T13:36:19.547Z pw:api waiting for Locator(".cartSection h3").First
+2026-05-28T13:36:19.550Z pw:api   locator resolved to <h3 _ngcontent-dhf-c41="">ZARA COAT 3</h3>

@@ -1,0 +1,64 @@
+2026-05-27T19:15:52.415Z pw:api navigating to "https://rahulshettyacademy.com/loginpagePractise/", waiting until "load"
+2026-05-27T19:15:52.687Z pw:api   "commit" event fired
+2026-05-27T19:15:52.687Z pw:api   navigated to "https://rahulshettyacademy.com/loginpagePractise/"
+2026-05-27T19:15:52.806Z pw:api   "domcontentloaded" event fired
+2026-05-27T19:15:54.484Z pw:api   "load" event fired
+2026-05-27T19:15:54.499Z pw:api waiting for Locator("#username")
+2026-05-27T19:15:54.522Z pw:api   locator resolved to <input type="text" id="username" name="username" class="form-control"/>
+2026-05-27T19:15:54.523Z pw:api   fill("rahulshettyacademy1")
+2026-05-27T19:15:54.524Z pw:api attempting fill action
+2026-05-27T19:15:54.524Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T19:15:54.542Z pw:api waiting for Locator("input[name='password']")
+2026-05-27T19:15:54.548Z pw:api   locator resolved to <input id="password" type="password" name="password" class="form-control"/>
+2026-05-27T19:15:54.550Z pw:api   fill("learning")
+2026-05-27T19:15:54.550Z pw:api attempting fill action
+2026-05-27T19:15:54.550Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T19:15:54.582Z pw:api waiting for Locator("select.form-control")
+2026-05-27T19:15:54.585Z pw:api   locator resolved to <select class="form-control" data-style="btn-info">ΓÇª</select>
+2026-05-27T19:15:54.586Z pw:api attempting select option action
+2026-05-27T19:15:54.586Z pw:api   waiting for element to be visible and enabled
+2026-05-27T19:15:54.590Z pw:api   selected specified option(s)
+2026-05-27T19:15:54.595Z pw:api waiting for Locator(".radiotextsty").Last
+2026-05-27T19:15:54.597Z pw:api   locator resolved to <span class="radiotextsty"> User</span>
+2026-05-27T19:15:54.599Z pw:api attempting click action
+2026-05-27T19:15:54.599Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:15:54.627Z pw:api   element is visible, enabled and stable
+2026-05-27T19:15:54.627Z pw:api   scrolling into view if needed
+2026-05-27T19:15:54.629Z pw:api   done scrolling
+2026-05-27T19:15:54.636Z pw:api   performing click action
+2026-05-27T19:15:54.662Z pw:api   click action done
+2026-05-27T19:15:54.662Z pw:api   waiting for scheduled navigations to finish
+2026-05-27T19:15:54.664Z pw:api   navigations have finished
+2026-05-27T19:15:54.667Z pw:api waiting for Locator("#okayBtn")
+2026-05-27T19:15:54.670Z pw:api   locator resolved to <button id="okayBtn" autofocus="" type="button" class="btn btn-success">Okay</button>
+2026-05-27T19:15:54.672Z pw:api attempting click action
+2026-05-27T19:15:54.672Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:15:54.694Z pw:api   element is not visible
+2026-05-27T19:15:54.694Z pw:api retrying click action
+2026-05-27T19:15:54.694Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:15:54.727Z pw:api   element is not visible
+2026-05-27T19:15:54.727Z pw:api retrying click action
+2026-05-27T19:15:54.727Z pw:api   waiting 20ms
+2026-05-27T19:15:54.749Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:15:54.777Z pw:api   element is not visible
+2026-05-27T19:15:54.777Z pw:api retrying click action
+2026-05-27T19:15:54.777Z pw:api   waiting 100ms
+2026-05-27T19:15:54.886Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:15:54.910Z pw:api   element is not stable
+2026-05-27T19:15:54.910Z pw:api retrying click action
+2026-05-27T19:15:54.910Z pw:api   waiting 100ms
+2026-05-27T19:15:55.027Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:15:55.060Z pw:api   element is not stable
+2026-05-27T19:15:55.060Z pw:api retrying click action
+2026-05-27T19:15:55.060Z pw:api   waiting 500ms
+2026-05-27T19:15:55.440Z pw:api   "networkidle" event fired
+2026-05-27T19:15:55.565Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:15:55.593Z pw:api   element is visible, enabled and stable
+2026-05-27T19:15:55.593Z pw:api   scrolling into view if needed
+2026-05-27T19:15:55.595Z pw:api   done scrolling
+2026-05-27T19:15:55.598Z pw:api   performing click action
+2026-05-27T19:15:55.609Z pw:api   click action done
+2026-05-27T19:15:55.609Z pw:api   waiting for scheduled navigations to finish
+2026-05-27T19:15:55.611Z pw:api   navigations have finished
+2026-05-27T19:15:58.360Z pw:api Expect "ToBeCheckedAsync" with timeout 5000ms
+2026-05-27T19:15:58.361Z pw:api waiting for Locator(".checkmark").Last

@@ -1,0 +1,152 @@
+2026-05-28T16:05:33.087Z pw:api navigating to "https://rahulshettyacademy.com/client/#/auth/login", waiting until "load"
+2026-05-28T16:05:33.175Z pw:api   "commit" event fired
+2026-05-28T16:05:33.176Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/auth/login"
+2026-05-28T16:05:33.347Z pw:api   "domcontentloaded" event fired
+2026-05-28T16:05:33.387Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/auth/login"
+2026-05-28T16:05:33.387Z pw:api   "load" event fired
+2026-05-28T16:05:33.394Z pw:api waiting for Locator("#userEmail")
+2026-05-28T16:05:33.441Z pw:api   locator resolved to <input type="email" id="userEmail" _ngcontent-yku-c31="" formcontrolname="userEmail" placeholder="email@example.com" class="form-control ng-untouched ng-pristine ng-invalid"/>
+2026-05-28T16:05:33.444Z pw:api   fill("prateik.mallik@outlook.com")
+2026-05-28T16:05:33.444Z pw:api attempting fill action
+2026-05-28T16:05:33.445Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T16:05:33.458Z pw:api waiting for Locator("#userPassword")
+2026-05-28T16:05:33.467Z pw:api   locator resolved to <input type="password" id="userPassword" _ngcontent-yku-c31="" formcontrolname="userPassword" placeholder="enter your passsword" class="form-control ng-untouched ng-pristine ng-invalid"/>
+2026-05-28T16:05:33.470Z pw:api   fill("Dukekumar@96")
+2026-05-28T16:05:33.470Z pw:api attempting fill action
+2026-05-28T16:05:33.470Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T16:05:33.483Z pw:api waiting for Locator("#login")
+2026-05-28T16:05:33.487Z pw:api   locator resolved to <input id="login" name="login" type="submit" value="Login" _ngcontent-yku-c31="" class="btn btn-block login-btn"/>
+2026-05-28T16:05:33.489Z pw:api attempting click action
+2026-05-28T16:05:33.489Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T16:05:33.509Z pw:api   element is visible, enabled and stable
+2026-05-28T16:05:33.509Z pw:api   scrolling into view if needed
+2026-05-28T16:05:33.510Z pw:api   done scrolling
+2026-05-28T16:05:33.516Z pw:api   performing click action
+2026-05-28T16:05:33.529Z pw:api   click action done
+2026-05-28T16:05:33.529Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T16:05:33.531Z pw:api   navigations have finished
+2026-05-28T16:05:33.536Z pw:api waiting for Locator("div.card-body").Last to be visible
+2026-05-28T16:05:33.659Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/dashboard/dash"
+2026-05-28T16:05:33.743Z pw:api   locator resolved to visible <div class="card-body" _ngcontent-yku-c39="">ΓÇª</div>
+2026-05-28T16:05:33.752Z pw:api waiting for Locator("div.card-body").First.Locator("b")
+2026-05-28T16:05:33.755Z pw:api   locator resolved to <b _ngcontent-yku-c39="">ADIDAS ORIGINAL</b>
+2026-05-28T16:05:33.756Z pw:api waiting for Locator("div.card-body").Nth(1).Locator("b")
+2026-05-28T16:05:33.759Z pw:api   locator resolved to <b _ngcontent-yku-c39="">ZARA COAT 3</b>
+2026-05-28T16:05:33.762Z pw:api waiting for Locator("div.card-body").Nth(1).Locator("i.fa.fa-shopping-cart")
+2026-05-28T16:05:33.765Z pw:api   locator resolved to <i _ngcontent-yku-c39="" class="fa fa-shopping-cart"></i>
+2026-05-28T16:05:33.767Z pw:api attempting click action
+2026-05-28T16:05:33.767Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T16:05:33.792Z pw:api   element is visible, enabled and stable
+2026-05-28T16:05:33.792Z pw:api   scrolling into view if needed
+2026-05-28T16:05:33.793Z pw:api   done scrolling
+2026-05-28T16:05:33.797Z pw:api   performing click action
+2026-05-28T16:05:33.803Z pw:api   click action done
+2026-05-28T16:05:33.803Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T16:05:33.804Z pw:api   navigations have finished
+2026-05-28T16:05:33.808Z pw:api Expect "ToBeVisibleAsync" with timeout 5000ms
+2026-05-28T16:05:33.809Z pw:api waiting for Locator("text=Product Added To Cart")
+2026-05-28T16:05:35.180Z pw:api   locator resolved to <div role="alert" aria-label="Product Added To Cart" class="ng-tns-c4-2 toast-message ng-star-inserted"> Product Added To Cart </div>
+2026-05-28T16:05:35.186Z pw:api waiting for Locator("text=Product Added To Cart")
+2026-05-28T16:05:35.188Z pw:api   locator resolved to <div role="alert" aria-label="Product Added To Cart" class="ng-tns-c4-2 toast-message ng-star-inserted"> Product Added To Cart </div>
+2026-05-28T16:05:35.191Z pw:api waiting for Locator("[routerlink=\"/dashboard/cart\"]")
+2026-05-28T16:05:35.194Z pw:api   locator resolved to <button tabindex="0" _ngcontent-yku-c38="" class="btn btn-custom" routerlink="/dashboard/cart">ΓÇª</button>
+2026-05-28T16:05:35.195Z pw:api attempting click action
+2026-05-28T16:05:35.195Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T16:05:35.225Z pw:api   element is visible, enabled and stable
+2026-05-28T16:05:35.225Z pw:api   scrolling into view if needed
+2026-05-28T16:05:35.226Z pw:api   done scrolling
+2026-05-28T16:05:35.229Z pw:api   performing click action
+2026-05-28T16:05:35.236Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/dashboard/cart"
+2026-05-28T16:05:35.262Z pw:api   click action done
+2026-05-28T16:05:35.262Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T16:05:35.272Z pw:api   navigations have finished
+2026-05-28T16:05:35.273Z pw:api waiting for Locator("div li").Last to be visible
+2026-05-28T16:05:35.277Z pw:api   locator resolved to visible <li class="totalRow" _ngcontent-yku-c41="">ΓÇª</li>
+2026-05-28T16:05:35.282Z pw:api waiting for Locator(".cartSection h3").First
+2026-05-28T16:05:35.285Z pw:api   locator resolved to <h3 _ngcontent-yku-c41="">ZARA COAT 3</h3>
+2026-05-28T16:05:35.286Z pw:api waiting for Locator(".cartSection h3").First
+2026-05-28T16:05:35.288Z pw:api   locator resolved to <h3 _ngcontent-yku-c41="">ZARA COAT 3</h3>
+2026-05-28T16:05:35.291Z pw:api   checking visibility of Locator("h3:has-text('ZARA COAT 3')")
+2026-05-28T16:05:35.296Z pw:api waiting for Locator("text=Checkout")
+2026-05-28T16:05:35.299Z pw:api   locator resolved to <button type="button" _ngcontent-yku-c41="" class="btn btn-primary">Checkout</button>
+2026-05-28T16:05:35.300Z pw:api attempting click action
+2026-05-28T16:05:35.300Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T16:05:35.325Z pw:api   element is visible, enabled and stable
+2026-05-28T16:05:35.326Z pw:api   scrolling into view if needed
+2026-05-28T16:05:35.327Z pw:api   done scrolling
+2026-05-28T16:05:35.330Z pw:api   performing click action
+2026-05-28T16:05:35.339Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/dashboard/order?prop=%5B%226960eac0c941646b7a8b3e68%22%5D"
+2026-05-28T16:05:35.359Z pw:api   click action done
+2026-05-28T16:05:35.359Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T16:05:35.361Z pw:api   navigations have finished
+2026-05-28T16:05:35.365Z pw:api waiting for Locator("div.field [class*='validated']")
+2026-05-28T16:05:35.369Z pw:api   locator resolved to <input type="text" _ngcontent-yku-c40="" value="4542 9931 9292 2293" class="input txt text-validated"/>
+2026-05-28T16:05:35.370Z pw:api elementHandle.type("1234123412341234")
+2026-05-28T16:05:35.436Z pw:api waiting for Locator("div.field.small [class='input txt']")
+2026-05-28T16:05:35.439Z pw:api   locator resolved to <input type="text" class="input txt" _ngcontent-yku-c40=""/>
+2026-05-28T16:05:35.439Z pw:api   fill("123")
+2026-05-28T16:05:35.439Z pw:api attempting fill action
+2026-05-28T16:05:35.440Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T16:05:35.451Z pw:api waiting for Locator("div.field [class='input txt']").Last
+2026-05-28T16:05:35.454Z pw:api   locator resolved to <input type="text" class="input txt" _ngcontent-yku-c40=""/>
+2026-05-28T16:05:35.455Z pw:api   fill("Prateik")
+2026-05-28T16:05:35.455Z pw:api attempting fill action
+2026-05-28T16:05:35.455Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T16:05:35.467Z pw:api waiting for Locator(".input.ddl").First
+2026-05-28T16:05:35.470Z pw:api   locator resolved to <select class="input ddl" _ngcontent-yku-c40="">ΓÇª</select>
+2026-05-28T16:05:35.471Z pw:api attempting select option action
+2026-05-28T16:05:35.472Z pw:api   waiting for element to be visible and enabled
+2026-05-28T16:05:35.474Z pw:api   selected specified option(s)
+2026-05-28T16:05:35.483Z pw:api waiting for Locator(".input.ddl").Last
+2026-05-28T16:05:35.486Z pw:api   locator resolved to <select class="input ddl" _ngcontent-yku-c40="">ΓÇª</select>
+2026-05-28T16:05:35.487Z pw:api attempting select option action
+2026-05-28T16:05:35.487Z pw:api   waiting for element to be visible and enabled
+2026-05-28T16:05:35.489Z pw:api   selected specified option(s)
+2026-05-28T16:05:35.491Z pw:api waiting for Locator("[name = 'coupon']")
+2026-05-28T16:05:35.494Z pw:api   locator resolved to <input type="text" name="coupon" _ngcontent-yku-c40="" class="input txt ng-untouched ng-pristine ng-valid"/>
+2026-05-28T16:05:35.496Z pw:api   fill("rahulshettyacademy")
+2026-05-28T16:05:35.496Z pw:api attempting fill action
+2026-05-28T16:05:35.496Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T16:05:35.503Z pw:api waiting for Locator("button[type='submit']")
+2026-05-28T16:05:35.506Z pw:api   locator resolved to <button type="submit" _ngcontent-yku-c40="" class="btn btn-primary mt-1">Apply Coupon</button>
+2026-05-28T16:05:35.508Z pw:api attempting click action
+2026-05-28T16:05:35.508Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T16:05:35.542Z pw:api   element is visible, enabled and stable
+2026-05-28T16:05:35.542Z pw:api   scrolling into view if needed
+2026-05-28T16:05:35.543Z pw:api   done scrolling
+2026-05-28T16:05:35.547Z pw:api   performing click action
+2026-05-28T16:05:35.554Z pw:api   click action done
+2026-05-28T16:05:35.554Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T16:05:35.555Z pw:api   navigations have finished
+2026-05-28T16:05:35.556Z pw:api Expect "ToBeVisibleAsync" with timeout 5000ms
+2026-05-28T16:05:35.556Z pw:api waiting for Locator("p.mt-1.ng-star-inserted")
+2026-05-28T16:05:35.886Z pw:api   "networkidle" event fired
+2026-05-28T16:05:38.971Z pw:api   locator resolved to <p _ngcontent-yku-c40="" class="mt-1 ng-star-inserted">* Coupon Applied</p>
+2026-05-28T16:05:38.978Z pw:api Expect "ToContainTextAsync" with timeout 5000ms
+2026-05-28T16:05:38.979Z pw:api waiting for Locator("p.mt-1.ng-star-inserted")
+2026-05-28T16:05:38.983Z pw:api waiting for Locator("p.mt-1.ng-star-inserted")
+2026-05-28T16:05:38.985Z pw:api   locator resolved to <p _ngcontent-yku-c40="" class="mt-1 ng-star-inserted">* Coupon Applied</p>
+2026-05-28T16:05:38.986Z pw:api Expect "ToContainTextAsync" with timeout 5000ms
+2026-05-28T16:05:38.986Z pw:api waiting for Locator("div.user__name label")
+2026-05-28T16:05:38.989Z pw:api waiting for Locator("div.user__name label")
+2026-05-28T16:05:38.991Z pw:api   locator resolved to <label type="text" _ngcontent-yku-c40="">prateik.mallik@outlook.com</label>
+2026-05-28T16:05:38.992Z pw:api waiting for Locator("[placeholder*='Country']")
+2026-05-28T16:05:38.995Z pw:api   locator resolved to <input ngxtypeahead="" _nghost-yku-c37="" _ngcontent-yku-c40="" placeholder="Select Country" class="input txt text-validated"/>
+2026-05-28T16:05:38.996Z pw:api elementHandle.type("ind")
+2026-05-28T16:05:39.011Z pw:api waiting for Locator(".ta-results").Locator("button").Last to be visible
+2026-05-28T16:05:39.336Z pw:api   locator resolved to visible <button type="button" _ngcontent-yku-c37="" class="ta-item list-group-item ng-star-inserted">ΓÇª</button>
+2026-05-28T16:05:39.340Z pw:api waiting for Locator(".ta-results").Locator("button").First
+2026-05-28T16:05:39.342Z pw:api   locator resolved to <button type="button" _ngcontent-yku-c37="" class="ta-item list-group-item ng-star-inserted">ΓÇª</button>
+2026-05-28T16:05:39.344Z pw:api waiting for Locator(".ta-results").Locator("button").Nth(1)
+2026-05-28T16:05:39.346Z pw:api   locator resolved to <button type="button" _ngcontent-yku-c37="" class="ta-item list-group-item ng-star-inserted">ΓÇª</button>
+2026-05-28T16:05:39.348Z pw:api waiting for Locator(".ta-results").Locator("button").Nth(1)
+2026-05-28T16:05:39.351Z pw:api   locator resolved to <button type="button" _ngcontent-yku-c37="" class="ta-item list-group-item ng-star-inserted">ΓÇª</button>
+2026-05-28T16:05:39.352Z pw:api attempting click action
+2026-05-28T16:05:39.352Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T16:05:39.375Z pw:api   element is visible, enabled and stable
+2026-05-28T16:05:39.375Z pw:api   scrolling into view if needed
+2026-05-28T16:05:39.376Z pw:api   done scrolling
+2026-05-28T16:05:39.379Z pw:api   performing click action
+2026-05-28T16:05:39.384Z pw:api   click action done
+2026-05-28T16:05:39.384Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T16:05:39.384Z pw:api   navigations have finished

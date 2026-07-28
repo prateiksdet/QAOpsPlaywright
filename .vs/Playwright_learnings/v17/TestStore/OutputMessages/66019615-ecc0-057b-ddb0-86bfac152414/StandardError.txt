@@ -1,0 +1,73 @@
+2026-05-29T08:21:34.956Z pw:api navigating to "https://rahulshettyacademy.com/seleniumPractise/#/offers", waiting until "load"
+2026-05-29T08:21:36.170Z pw:api   "commit" event fired
+2026-05-29T08:21:36.171Z pw:api   navigated to "https://rahulshettyacademy.com/seleniumPractise/#/offers"
+2026-05-29T08:21:36.402Z pw:api   "domcontentloaded" event fired
+2026-05-29T08:21:38.991Z pw:api   "load" event fired
+2026-05-29T08:21:39.011Z pw:api waiting for Locator(".react-date-picker__inputGroup")
+2026-05-29T08:21:39.034Z pw:api   locator resolved to <div class="react-date-picker__inputGroup">ΓÇª</div>
+2026-05-29T08:21:39.037Z pw:api attempting click action
+2026-05-29T08:21:39.037Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T08:21:39.064Z pw:api   element is visible, enabled and stable
+2026-05-29T08:21:39.064Z pw:api   scrolling into view if needed
+2026-05-29T08:21:39.066Z pw:api   done scrolling
+2026-05-29T08:21:39.077Z pw:api   performing click action
+2026-05-29T08:21:39.122Z pw:api   click action done
+2026-05-29T08:21:39.122Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T08:21:39.124Z pw:api   navigations have finished
+2026-05-29T08:21:39.126Z pw:api waiting for Locator(".react-calendar__navigation__label")
+2026-05-29T08:21:39.130Z pw:api   locator resolved to <button aria-label="" type="button" class="react-calendar__navigation__label">ΓÇª</button>
+2026-05-29T08:21:39.132Z pw:api attempting click action
+2026-05-29T08:21:39.132Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T08:21:39.164Z pw:api   element is visible, enabled and stable
+2026-05-29T08:21:39.164Z pw:api   scrolling into view if needed
+2026-05-29T08:21:39.165Z pw:api   done scrolling
+2026-05-29T08:21:39.168Z pw:api   performing click action
+2026-05-29T08:21:39.186Z pw:api   click action done
+2026-05-29T08:21:39.186Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T08:21:39.188Z pw:api   navigations have finished
+2026-05-29T08:21:39.190Z pw:api waiting for Locator(".react-calendar__navigation__label")
+2026-05-29T08:21:39.193Z pw:api   locator resolved to <button aria-label="" type="button" class="react-calendar__navigation__label">ΓÇª</button>
+2026-05-29T08:21:39.194Z pw:api attempting click action
+2026-05-29T08:21:39.195Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T08:21:39.230Z pw:api   element is visible, enabled and stable
+2026-05-29T08:21:39.230Z pw:api   scrolling into view if needed
+2026-05-29T08:21:39.232Z pw:api   done scrolling
+2026-05-29T08:21:39.236Z pw:api   performing click action
+2026-05-29T08:21:39.244Z pw:api   click action done
+2026-05-29T08:21:39.244Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T08:21:39.245Z pw:api   navigations have finished
+2026-05-29T08:21:39.261Z pw:api waiting for Locator(".react-calendar__decade-view__years").GetByRole(AriaRole.Button, new() { Name = "2027" })
+2026-05-29T08:21:39.270Z pw:api   locator resolved to <button type="button" class="react-calendar__tile react-calendar__decade-view__years__year">2027</button>
+2026-05-29T08:21:39.274Z pw:api attempting click action
+2026-05-29T08:21:39.274Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T08:21:39.296Z pw:api   element is visible, enabled and stable
+2026-05-29T08:21:39.296Z pw:api   scrolling into view if needed
+2026-05-29T08:21:39.297Z pw:api   done scrolling
+2026-05-29T08:21:39.300Z pw:api   performing click action
+2026-05-29T08:21:39.309Z pw:api   click action done
+2026-05-29T08:21:39.309Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T08:21:39.310Z pw:api   navigations have finished
+2026-05-29T08:21:39.312Z pw:api waiting for Locator(".react-calendar__year-view__months__month").Nth(5)
+2026-05-29T08:21:39.317Z pw:api   locator resolved to <button type="button" class="react-calendar__tile react-calendar__year-view__months__month">ΓÇª</button>
+2026-05-29T08:21:39.319Z pw:api attempting click action
+2026-05-29T08:21:39.319Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T08:21:39.346Z pw:api   element is visible, enabled and stable
+2026-05-29T08:21:39.346Z pw:api   scrolling into view if needed
+2026-05-29T08:21:39.347Z pw:api   done scrolling
+2026-05-29T08:21:39.350Z pw:api   performing click action
+2026-05-29T08:21:39.367Z pw:api   click action done
+2026-05-29T08:21:39.367Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T08:21:39.368Z pw:api   navigations have finished
+2026-05-29T08:21:39.372Z pw:api waiting for Locator(".react-calendar__month-view__days").GetByText("25")
+2026-05-29T08:21:39.377Z pw:api   locator resolved to <abbr aria-label="June 25, 2027">25</abbr>
+2026-05-29T08:21:39.378Z pw:api attempting click action
+2026-05-29T08:21:39.378Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T08:21:39.413Z pw:api   element is visible, enabled and stable
+2026-05-29T08:21:39.413Z pw:api   scrolling into view if needed
+2026-05-29T08:21:39.414Z pw:api   done scrolling
+2026-05-29T08:21:39.417Z pw:api   performing click action
+2026-05-29T08:21:39.437Z pw:api   click action done
+2026-05-29T08:21:39.437Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T08:21:39.437Z pw:api   navigations have finished
+2026-05-29T08:21:39.440Z pw:api waiting for Locator(".react-date-picker__inputGroup__input").First
+2026-05-29T08:21:39.443Z pw:api   locator resolved to <input min="1" max="12" value="6" name="month" type="number" placeholder="--" data-input="true" autocomplete="off" inputmode="numeric" class="react-date-picker__inputGroup__input react-date-picker__inputGroup__month react-date-picker__inputGroup__input--hasLeadingZero"/>

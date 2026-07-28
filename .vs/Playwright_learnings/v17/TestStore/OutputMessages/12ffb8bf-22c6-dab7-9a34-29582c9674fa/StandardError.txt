@@ -1,0 +1,38 @@
+2026-05-27T19:53:17.073Z pw:api navigating to "https://rahulshettyacademy.com/loginpagePractise/", waiting until "load"
+2026-05-27T19:53:17.209Z pw:api   "commit" event fired
+2026-05-27T19:53:17.210Z pw:api   navigated to "https://rahulshettyacademy.com/loginpagePractise/"
+2026-05-27T19:53:17.327Z pw:api   "domcontentloaded" event fired
+2026-05-27T19:53:19.191Z pw:api   "load" event fired
+2026-05-27T19:53:19.206Z pw:api Expect "ToHaveClassAsync" with timeout 5000ms
+2026-05-27T19:53:19.212Z pw:api waiting for Locator("[target='_blank']").First
+2026-05-27T19:53:19.243Z pw:api Expect "ToHaveAttributeAsync" with timeout 5000ms
+2026-05-27T19:53:19.243Z pw:api waiting for Locator("[href*='techsmarthire']")
+2026-05-27T19:53:19.248Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:19.248Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:19.271Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:19.271Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:19.337Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:19.337Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:19.446Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:19.446Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:19.553Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:19.553Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:19.979Z pw:api   "networkidle" event fired
+2026-05-27T19:53:20.061Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:20.061Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:20.567Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:20.567Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:21.084Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:21.084Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:21.600Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:21.600Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:22.117Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:22.117Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:22.634Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:22.634Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:23.139Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:23.139Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:23.643Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:23.643Z pw:api   unexpected value "blinkingText"
+2026-05-27T19:53:24.153Z pw:api   locator resolved to <a target="_blank" class="blinkingText" href="https://techsmarthire.com/">Get Shortlisted by Recruiters - Take QA Skill AssΓÇª</a>
+2026-05-27T19:53:24.153Z pw:api   unexpected value "blinkingText"

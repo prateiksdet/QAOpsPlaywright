@@ -1,0 +1,102 @@
+2026-05-27T19:17:26.046Z pw:api navigating to "https://rahulshettyacademy.com/loginpagePractise/", waiting until "load"
+2026-05-27T19:17:26.232Z pw:api   "commit" event fired
+2026-05-27T19:17:26.232Z pw:api   navigated to "https://rahulshettyacademy.com/loginpagePractise/"
+2026-05-27T19:17:26.356Z pw:api   "domcontentloaded" event fired
+2026-05-27T19:17:28.022Z pw:api   "load" event fired
+2026-05-27T19:17:28.035Z pw:api waiting for Locator("#username")
+2026-05-27T19:17:28.054Z pw:api   locator resolved to <input type="text" id="username" name="username" class="form-control"/>
+2026-05-27T19:17:28.055Z pw:api   fill("rahulshettyacademy1")
+2026-05-27T19:17:28.056Z pw:api attempting fill action
+2026-05-27T19:17:28.056Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T19:17:28.070Z pw:api waiting for Locator("input[name='password']")
+2026-05-27T19:17:28.072Z pw:api   locator resolved to <input id="password" type="password" name="password" class="form-control"/>
+2026-05-27T19:17:28.074Z pw:api   fill("learning")
+2026-05-27T19:17:28.074Z pw:api attempting fill action
+2026-05-27T19:17:28.074Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T19:17:28.115Z pw:api waiting for Locator("select.form-control")
+2026-05-27T19:17:28.118Z pw:api   locator resolved to <select class="form-control" data-style="btn-info">ΓÇª</select>
+2026-05-27T19:17:28.119Z pw:api attempting select option action
+2026-05-27T19:17:28.119Z pw:api   waiting for element to be visible and enabled
+2026-05-27T19:17:28.124Z pw:api   selected specified option(s)
+2026-05-27T19:17:28.127Z pw:api waiting for Locator(".radiotextsty").Last
+2026-05-27T19:17:28.131Z pw:api   locator resolved to <span class="radiotextsty"> User</span>
+2026-05-27T19:17:28.132Z pw:api attempting click action
+2026-05-27T19:17:28.133Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:28.158Z pw:api   element is visible, enabled and stable
+2026-05-27T19:17:28.158Z pw:api   scrolling into view if needed
+2026-05-27T19:17:28.159Z pw:api   done scrolling
+2026-05-27T19:17:28.165Z pw:api   performing click action
+2026-05-27T19:17:28.186Z pw:api   click action done
+2026-05-27T19:17:28.186Z pw:api   waiting for scheduled navigations to finish
+2026-05-27T19:17:28.187Z pw:api   navigations have finished
+2026-05-27T19:17:28.189Z pw:api waiting for Locator("#okayBtn")
+2026-05-27T19:17:28.192Z pw:api   locator resolved to <button id="okayBtn" autofocus="" type="button" class="btn btn-success">Okay</button>
+2026-05-27T19:17:28.193Z pw:api attempting click action
+2026-05-27T19:17:28.193Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:28.225Z pw:api   element is not visible
+2026-05-27T19:17:28.225Z pw:api retrying click action
+2026-05-27T19:17:28.225Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:28.258Z pw:api   element is not visible
+2026-05-27T19:17:28.259Z pw:api retrying click action
+2026-05-27T19:17:28.259Z pw:api   waiting 20ms
+2026-05-27T19:17:28.284Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:28.307Z pw:api   element is not visible
+2026-05-27T19:17:28.307Z pw:api retrying click action
+2026-05-27T19:17:28.307Z pw:api   waiting 100ms
+2026-05-27T19:17:28.413Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:28.441Z pw:api   element is not stable
+2026-05-27T19:17:28.441Z pw:api retrying click action
+2026-05-27T19:17:28.441Z pw:api   waiting 100ms
+2026-05-27T19:17:28.544Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:28.573Z pw:api   element is not stable
+2026-05-27T19:17:28.574Z pw:api retrying click action
+2026-05-27T19:17:28.574Z pw:api   waiting 500ms
+2026-05-27T19:17:28.923Z pw:api   "networkidle" event fired
+2026-05-27T19:17:29.081Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:29.106Z pw:api   element is visible, enabled and stable
+2026-05-27T19:17:29.107Z pw:api   scrolling into view if needed
+2026-05-27T19:17:29.108Z pw:api   done scrolling
+2026-05-27T19:17:29.112Z pw:api   performing click action
+2026-05-27T19:17:29.126Z pw:api   click action done
+2026-05-27T19:17:29.126Z pw:api   waiting for scheduled navigations to finish
+2026-05-27T19:17:29.127Z pw:api   navigations have finished
+2026-05-27T19:17:29.142Z pw:api Expect "ToBeCheckedAsync" with timeout 5000ms
+2026-05-27T19:17:29.143Z pw:api waiting for Locator(".checkmark").Last
+2026-05-27T19:17:29.153Z pw:api waiting for Locator("#signInBtn")
+2026-05-27T19:17:29.156Z pw:api   locator resolved to <input type="submit" name="signin" id="signInBtn" value="Sign In" class="btn btn-info btn-md"/>
+2026-05-27T19:17:29.157Z pw:api attempting click action
+2026-05-27T19:17:29.158Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:29.190Z pw:api   element is visible, enabled and stable
+2026-05-27T19:17:29.190Z pw:api   scrolling into view if needed
+2026-05-27T19:17:29.191Z pw:api   done scrolling
+2026-05-27T19:17:29.195Z pw:api   <div id="myModal" class="modal fade">ΓÇª</div> intercepts pointer events
+2026-05-27T19:17:29.195Z pw:api retrying click action
+2026-05-27T19:17:29.195Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:29.223Z pw:api   element is visible, enabled and stable
+2026-05-27T19:17:29.223Z pw:api   scrolling into view if needed
+2026-05-27T19:17:29.225Z pw:api   done scrolling
+2026-05-27T19:17:29.228Z pw:api   <div id="myModal" class="modal fade">ΓÇª</div> intercepts pointer events
+2026-05-27T19:17:29.228Z pw:api retrying click action
+2026-05-27T19:17:29.228Z pw:api   waiting 20ms
+2026-05-27T19:17:29.252Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:29.274Z pw:api   element is visible, enabled and stable
+2026-05-27T19:17:29.274Z pw:api   scrolling into view if needed
+2026-05-27T19:17:29.275Z pw:api   done scrolling
+2026-05-27T19:17:29.278Z pw:api   <div class="modal-backdrop fade"></div> intercepts pointer events
+2026-05-27T19:17:29.278Z pw:api retrying click action
+2026-05-27T19:17:29.278Z pw:api   waiting 100ms
+2026-05-27T19:17:29.383Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:29.407Z pw:api   element is visible, enabled and stable
+2026-05-27T19:17:29.407Z pw:api   scrolling into view if needed
+2026-05-27T19:17:29.408Z pw:api   done scrolling
+2026-05-27T19:17:29.410Z pw:api   <div class="modal-backdrop fade"></div> intercepts pointer events
+2026-05-27T19:17:29.410Z pw:api retrying click action
+2026-05-27T19:17:29.410Z pw:api   waiting 100ms
+2026-05-27T19:17:29.523Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-27T19:17:29.556Z pw:api   element is visible, enabled and stable
+2026-05-27T19:17:29.557Z pw:api   scrolling into view if needed
+2026-05-27T19:17:29.557Z pw:api   done scrolling
+2026-05-27T19:17:29.559Z pw:api   performing click action
+2026-05-27T19:17:29.582Z pw:api   click action done
+2026-05-27T19:17:29.583Z pw:api   waiting for scheduled navigations to finish
+2026-05-27T19:17:29.583Z pw:api   navigations have finished

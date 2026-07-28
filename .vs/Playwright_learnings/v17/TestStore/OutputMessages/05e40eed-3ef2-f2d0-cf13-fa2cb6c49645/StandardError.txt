@@ -1,0 +1,216 @@
+2026-05-29T13:27:22.472Z pw:api navigating to "https://eventhub.rahulshettyacademy.com/", waiting until "load"
+2026-05-29T13:27:22.563Z pw:api   "commit" event fired
+2026-05-29T13:27:22.564Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/"
+2026-05-29T13:27:22.614Z pw:api   "domcontentloaded" event fired
+2026-05-29T13:27:22.689Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/"
+2026-05-29T13:27:22.689Z pw:api   "load" event fired
+2026-05-29T13:27:22.696Z pw:api waiting for GetByPlaceholder("you@email.com")
+2026-05-29T13:27:22.748Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/login"
+2026-05-29T13:27:22.799Z pw:api   locator resolved to <input value="" id="email" type="email" name="email" placeholder="you@email.com" class="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"/>
+2026-05-29T13:27:22.801Z pw:api   fill("prateik.mallik@outlook.com")
+2026-05-29T13:27:22.801Z pw:api attempting fill action
+2026-05-29T13:27:22.801Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:22.816Z pw:api waiting for GetByLabel("Password")
+2026-05-29T13:27:22.822Z pw:api   locator resolved to <input value="" id="password" type="password" name="password" placeholder="ΓÇóΓÇóΓÇóΓÇóΓÇóΓÇó" class="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"/>
+2026-05-29T13:27:22.824Z pw:api   fill("Dukekumar@96")
+2026-05-29T13:27:22.824Z pw:api attempting fill action
+2026-05-29T13:27:22.824Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:22.834Z pw:api waiting for Locator("#login-btn")
+2026-05-29T13:27:22.838Z pw:api   locator resolved to <button type="submit" id="login-btn" class="login-submit-btn w-full py-2.5 px-4 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold rounded-lg transition-colors disabled:opacity-60 disabled:cursor-not-allowed">Sign In</button>
+2026-05-29T13:27:22.839Z pw:api attempting click action
+2026-05-29T13:27:22.839Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:22.893Z pw:api   element is visible, enabled and stable
+2026-05-29T13:27:22.893Z pw:api   scrolling into view if needed
+2026-05-29T13:27:22.895Z pw:api   done scrolling
+2026-05-29T13:27:22.899Z pw:api   performing click action
+2026-05-29T13:27:22.911Z pw:api   click action done
+2026-05-29T13:27:22.911Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T13:27:22.911Z pw:api   navigations have finished
+2026-05-29T13:27:22.917Z pw:api Expect "ToBeVisibleAsync" with timeout 5000ms
+2026-05-29T13:27:22.918Z pw:api waiting for GetByText("Browse Events ΓåÆ")
+2026-05-29T13:27:23.222Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/"
+2026-05-29T13:27:23.264Z pw:api   locator resolved to <span class="inline-flex items-center justify-center px-6 py-2.5 text-base font-semibold rounded-lg bg-white text-indigo-700 hover:bg-indigo-50 transition-colors w-full sm:w-auto">Browse Events ΓåÆ</span>
+2026-05-29T13:27:23.276Z pw:api waiting for GetByRole(AriaRole.Button, new() { Name = "Admin" })
+2026-05-29T13:27:23.280Z pw:api   locator resolved to <button class="Γå╡                  flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-medium transition-colorsΓå╡                  text-gray-600 hover:text-gray-900 hover:bg-gray-100Γå╡                ">ΓÇª</button>
+2026-05-29T13:27:23.282Z pw:api attempting click action
+2026-05-29T13:27:23.282Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:23.343Z pw:api   element is visible, enabled and stable
+2026-05-29T13:27:23.343Z pw:api   scrolling into view if needed
+2026-05-29T13:27:23.345Z pw:api   done scrolling
+2026-05-29T13:27:23.349Z pw:api   performing click action
+2026-05-29T13:27:23.355Z pw:api   click action done
+2026-05-29T13:27:23.355Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T13:27:23.359Z pw:api   navigations have finished
+2026-05-29T13:27:23.364Z pw:api waiting for Locator(".absolute.right-0.top-full").GetByText("Manage Events")
+2026-05-29T13:27:23.367Z pw:api   locator resolved to <a href="/admin/events" class="flex items-center gap-2.5 px-4 py-2.5 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-700 transition-colors">ΓÇª</a>
+2026-05-29T13:27:23.372Z pw:api attempting click action
+2026-05-29T13:27:23.373Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:23.442Z pw:api   element is not stable
+2026-05-29T13:27:23.442Z pw:api retrying click action
+2026-05-29T13:27:23.442Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:23.470Z pw:api   element is not stable
+2026-05-29T13:27:23.470Z pw:api retrying click action
+2026-05-29T13:27:23.470Z pw:api   waiting 20ms
+2026-05-29T13:27:23.493Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:23.520Z pw:api   element is not stable
+2026-05-29T13:27:23.520Z pw:api retrying click action
+2026-05-29T13:27:23.520Z pw:api   waiting 100ms
+2026-05-29T13:27:23.622Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:23.636Z pw:api   element is visible, enabled and stable
+2026-05-29T13:27:23.636Z pw:api   scrolling into view if needed
+2026-05-29T13:27:23.638Z pw:api   done scrolling
+2026-05-29T13:27:23.641Z pw:api   performing click action
+2026-05-29T13:27:23.651Z pw:api   click action done
+2026-05-29T13:27:23.651Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T13:27:23.655Z pw:api   navigations have finished
+2026-05-29T13:27:23.658Z pw:api waiting for Locator("#event-title-input")
+2026-05-29T13:27:23.665Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/admin/events"
+2026-05-29T13:27:23.702Z pw:api   locator resolved to <input value="" required="" id="event-title-input" placeholder="Event title" data-testid="event-title-input" class="Γå╡          w-full px-3 py-2 rounded-lg border text-sm text-gray-900 bg-whiteΓå╡          focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparentΓå╡          transition-colors duration-150 placeholder:text-gray-400Γå╡          border-gray-300 hover:border-gray-400Γå╡        "/>
+2026-05-29T13:27:23.704Z pw:api   fill("1780061243655")
+2026-05-29T13:27:23.705Z pw:api attempting fill action
+2026-05-29T13:27:23.705Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:23.714Z pw:api waiting for Locator("#admin-event-form textarea")
+2026-05-29T13:27:23.718Z pw:api   locator resolved to <textarea rows="3" placeholder="Describe the eventΓÇª" class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent resize-none"></textarea>
+2026-05-29T13:27:23.727Z pw:api   fill("This is a description input box")
+2026-05-29T13:27:23.727Z pw:api attempting fill action
+2026-05-29T13:27:23.727Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:23.745Z pw:api waiting for GetByLabel("City")
+2026-05-29T13:27:23.750Z pw:api   locator resolved to <input value="" id="city" required="" placeholder="e.g. Bangalore" class="Γå╡          w-full px-3 py-2 rounded-lg border text-sm text-gray-900 bg-whiteΓå╡          focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparentΓå╡          transition-colors duration-150 placeholder:text-gray-400Γå╡          border-gray-300 hover:border-gray-400Γå╡        "/>
+2026-05-29T13:27:23.751Z pw:api   fill("Darbhanga")
+2026-05-29T13:27:23.751Z pw:api attempting fill action
+2026-05-29T13:27:23.751Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:23.762Z pw:api waiting for GetByLabel("Venue")
+2026-05-29T13:27:23.767Z pw:api   locator resolved to <input value="" id="venue" required="" placeholder="Venue name & address" class="Γå╡          w-full px-3 py-2 rounded-lg border text-sm text-gray-900 bg-whiteΓå╡          focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparentΓå╡          transition-colors duration-150 placeholder:text-gray-400Γå╡          border-gray-300 hover:border-gray-400Γå╡        "/>
+2026-05-29T13:27:23.769Z pw:api   fill("Sanrachna Engineers")
+2026-05-29T13:27:23.769Z pw:api attempting fill action
+2026-05-29T13:27:23.769Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:23.796Z pw:api waiting for GetByLabel("Event Date & Time")
+2026-05-29T13:27:23.800Z pw:api   locator resolved to <input value="" required="" type="datetime-local" id="event-date-&-time" class="Γå╡          w-full px-3 py-2 rounded-lg border text-sm text-gray-900 bg-whiteΓå╡          focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparentΓå╡          transition-colors duration-150 placeholder:text-gray-400Γå╡          border-gray-300 hover:border-gray-400Γå╡        "/>
+2026-05-29T13:27:23.802Z pw:api   fill("2026-06-03T18:57")
+2026-05-29T13:27:23.802Z pw:api attempting fill action
+2026-05-29T13:27:23.803Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:23.815Z pw:api waiting for GetByLabel("Price ($)")
+2026-05-29T13:27:23.819Z pw:api   locator resolved to <input min="0" value="" required="" step="0.01" type="number" id="price-($)" placeholder="0.00" class="Γå╡          w-full px-3 py-2 rounded-lg border text-sm text-gray-900 bg-whiteΓå╡          focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparentΓå╡          transition-colors duration-150 placeholder:text-gray-400Γå╡          border-gray-300 hover:border-gray-400Γå╡        "/>
+2026-05-29T13:27:23.823Z pw:api   fill("100")
+2026-05-29T13:27:23.823Z pw:api attempting fill action
+2026-05-29T13:27:23.823Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:23.844Z pw:api waiting for GetByLabel("Total Seats")
+2026-05-29T13:27:23.849Z pw:api   locator resolved to <input min="1" value="" required="" type="number" id="total-seats" placeholder="e.g. 500" class="Γå╡          w-full px-3 py-2 rounded-lg border text-sm text-gray-900 bg-whiteΓå╡          focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparentΓå╡          transition-colors duration-150 placeholder:text-gray-400Γå╡          border-gray-300 hover:border-gray-400Γå╡        "/>
+2026-05-29T13:27:23.851Z pw:api   fill("50")
+2026-05-29T13:27:23.851Z pw:api attempting fill action
+2026-05-29T13:27:23.851Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:23.863Z pw:api waiting for Locator("#add-event-btn")
+2026-05-29T13:27:23.867Z pw:api   locator resolved to <button type="submit" id="add-event-btn" data-testid="add-event-btn" class="Γå╡        inline-flex items-center justify-center font-medium borderΓå╡        transition-colors duration-150Γå╡        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2Γå╡        disabled:opacity-50 disabled:cursor-not-allowedΓå╡        bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white border-transparent shadow-smΓå╡        px-4 py-2   text-sm rounded-lg gap-2Γå╡        Γå╡      ">+ Add Event</button>
+2026-05-29T13:27:23.869Z pw:api attempting click action
+2026-05-29T13:27:23.869Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:23.903Z pw:api   element is visible, enabled and stable
+2026-05-29T13:27:23.903Z pw:api   scrolling into view if needed
+2026-05-29T13:27:23.904Z pw:api   done scrolling
+2026-05-29T13:27:23.909Z pw:api   performing click action
+2026-05-29T13:27:23.923Z pw:api   click action done
+2026-05-29T13:27:23.923Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T13:27:23.924Z pw:api   navigations have finished
+2026-05-29T13:27:23.927Z pw:api Expect "ToBeVisibleAsync" with timeout 5000ms
+2026-05-29T13:27:23.927Z pw:api waiting for GetByText("Event created!")
+2026-05-29T13:27:23.990Z pw:api   locator resolved to <p class="text-sm font-medium flex-1 leading-snug">Event created!</p>
+2026-05-29T13:27:23.993Z pw:api waiting for Locator("#nav-events")
+2026-05-29T13:27:23.998Z pw:api   locator resolved to <a href="/events" id="nav-events" data-testid="nav-events" class="Γå╡        px-4 py-2 rounded-lg text-sm font-medium transition-colorsΓå╡        text-gray-600 hover:text-gray-900 hover:bg-gray-100Γå╡      ">Events</a>
+2026-05-29T13:27:24.000Z pw:api attempting click action
+2026-05-29T13:27:24.000Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:24.024Z pw:api   element is visible, enabled and stable
+2026-05-29T13:27:24.024Z pw:api   scrolling into view if needed
+2026-05-29T13:27:24.025Z pw:api   done scrolling
+2026-05-29T13:27:24.030Z pw:api   performing click action
+2026-05-29T13:27:24.040Z pw:api   click action done
+2026-05-29T13:27:24.040Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T13:27:24.045Z pw:api   navigations have finished
+2026-05-29T13:27:24.050Z pw:api waiting for Locator("#event-card").First to be visible
+2026-05-29T13:27:24.052Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/events"
+2026-05-29T13:27:24.087Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/events"
+2026-05-29T13:27:24.164Z pw:api   locator resolved to visible <article id="event-card" data-testid="event-card" class="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">ΓÇª</article>
+2026-05-29T13:27:24.166Z pw:api Expect "ToBeVisibleAsync" with timeout 5000ms
+2026-05-29T13:27:24.166Z pw:api waiting for Locator("#event-card").First
+2026-05-29T13:27:24.177Z pw:api   checking visibility of Locator("#event-card").Filter(new() { HasText = "1780061243655" })
+2026-05-29T13:27:24.185Z pw:api waiting for Locator("#event-card").Filter(new() { HasText = "1780061243655" }).Locator("div span.text-xs.font-semibold.text-emerald-600")
+2026-05-29T13:27:24.190Z pw:api   locator resolved to <span class="text-xs font-semibold text-emerald-600">50 seats available</span>
+2026-05-29T13:27:24.194Z pw:api waiting for Locator("#event-card").Filter(new() { HasText = "1780061243655" }).GetByTestId("book-now-btn")
+2026-05-29T13:27:24.198Z pw:api   locator resolved to <a id="book-now-btn" href="/events/43697" aria-disabled="false" data-testid="book-now-btn" class="Γå╡              px-4 py-2 rounded-lg text-sm font-semibold transition-colorsΓå╡              bg-indigo-600 hover:bg-indigo-700 text-white shadow-smΓå╡            ">Book Now</a>
+2026-05-29T13:27:24.200Z pw:api attempting click action
+2026-05-29T13:27:24.200Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:24.221Z pw:api   element is visible, enabled and stable
+2026-05-29T13:27:24.221Z pw:api   scrolling into view if needed
+2026-05-29T13:27:24.222Z pw:api   done scrolling
+2026-05-29T13:27:24.226Z pw:api   performing click action
+2026-05-29T13:27:24.233Z pw:api   click action done
+2026-05-29T13:27:24.233Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T13:27:24.234Z pw:api   navigations have finished
+2026-05-29T13:27:24.244Z pw:api Expect "ToHaveTextAsync" with timeout 5000ms
+2026-05-29T13:27:24.244Z pw:api waiting for Locator("#ticket-count")
+2026-05-29T13:27:24.320Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/events/43697"
+2026-05-29T13:27:24.393Z pw:api   locator resolved to <span id="ticket-count" class="ticket-count w-8 text-center font-semibold text-lg">1</span>
+2026-05-29T13:27:24.396Z pw:api waiting for GetByLabel("Full Name")
+2026-05-29T13:27:24.401Z pw:api   locator resolved to <input value="" required="" id="customerName" name="customerName" placeholder="Your full name" class="Γå╡          w-full px-3 py-2 rounded-lg border text-sm text-gray-900 bg-whiteΓå╡          focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparentΓå╡          transition-colors duration-150 placeholder:text-gray-400Γå╡          border-gray-300 hover:border-gray-400Γå╡        "/>
+2026-05-29T13:27:24.403Z pw:api   fill("Prateik M")
+2026-05-29T13:27:24.403Z pw:api attempting fill action
+2026-05-29T13:27:24.403Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:24.415Z pw:api waiting for Locator("#customer-email")
+2026-05-29T13:27:24.422Z pw:api   locator resolved to <input value="" required="" type="email" id="customer-email" name="customerEmail" placeholder="you@email.com" data-testid="customer-email" class="Γå╡          w-full px-3 py-2 rounded-lg border text-sm text-gray-900 bg-whiteΓå╡          focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparentΓå╡          transition-colors duration-150 placeholder:text-gray-400Γå╡          border-gray-300 hover:border-gray-400Γå╡        "/>
+2026-05-29T13:27:24.425Z pw:api   fill("prateik.mallik@outout.com")
+2026-05-29T13:27:24.425Z pw:api attempting fill action
+2026-05-29T13:27:24.425Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:24.437Z pw:api waiting for GetByPlaceholder("+91 98765 43210")
+2026-05-29T13:27:24.443Z pw:api   locator resolved to <input value="" id="phone" type="tel" required="" name="phone" placeholder="+91 98765 43210" class="Γå╡          w-full px-3 py-2 rounded-lg border text-sm text-gray-900 bg-whiteΓå╡          focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparentΓå╡          transition-colors duration-150 placeholder:text-gray-400Γå╡          border-gray-300 hover:border-gray-400Γå╡        "/>
+2026-05-29T13:27:24.445Z pw:api   fill("+919123443210")
+2026-05-29T13:27:24.445Z pw:api attempting fill action
+2026-05-29T13:27:24.445Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-29T13:27:24.457Z pw:api waiting for Locator(".confirm-booking-btn")
+2026-05-29T13:27:24.462Z pw:api   locator resolved to <button type="submit" id="confirm-booking" class="Γå╡        inline-flex items-center justify-center font-medium borderΓå╡        transition-colors duration-150Γå╡        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2Γå╡        disabled:opacity-50 disabled:cursor-not-allowedΓå╡        bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white border-transparent shadow-smΓå╡        px-6 py-2.5 text-base rounded-lg gap-2Γå╡        confirm-booking-btn w-fullΓå╡      ">Confirm Booking</button>
+2026-05-29T13:27:24.465Z pw:api attempting click action
+2026-05-29T13:27:24.465Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:24.487Z pw:api   element is visible, enabled and stable
+2026-05-29T13:27:24.487Z pw:api   scrolling into view if needed
+2026-05-29T13:27:24.488Z pw:api   done scrolling
+2026-05-29T13:27:24.493Z pw:api   performing click action
+2026-05-29T13:27:24.507Z pw:api   click action done
+2026-05-29T13:27:24.507Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T13:27:24.509Z pw:api   navigations have finished
+2026-05-29T13:27:24.511Z pw:api Expect "ToBeVisibleAsync" with timeout 5000ms
+2026-05-29T13:27:24.512Z pw:api waiting for Locator("span.booking-ref")
+2026-05-29T13:27:24.585Z pw:api   locator resolved to <span class="booking-ref font-mono font-bold text-indigo-600">1-FMK6HU</span>
+2026-05-29T13:27:24.589Z pw:api waiting for Locator("span.booking-ref")
+2026-05-29T13:27:24.593Z pw:api   locator resolved to <span class="booking-ref font-mono font-bold text-indigo-600">1-FMK6HU</span>
+2026-05-29T13:27:24.596Z pw:api waiting for GetByRole(AriaRole.Link, new() { Name = "View My Bookings" })
+2026-05-29T13:27:24.602Z pw:api   locator resolved to <a href="/bookings">ΓÇª</a>
+2026-05-29T13:27:24.604Z pw:api attempting click action
+2026-05-29T13:27:24.605Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:24.620Z pw:api   element is visible, enabled and stable
+2026-05-29T13:27:24.620Z pw:api   scrolling into view if needed
+2026-05-29T13:27:24.621Z pw:api   done scrolling
+2026-05-29T13:27:24.626Z pw:api   performing click action
+2026-05-29T13:27:24.634Z pw:api   click action done
+2026-05-29T13:27:24.634Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T13:27:24.635Z pw:api   navigations have finished
+2026-05-29T13:27:24.644Z pw:api Expect "ToHaveURLAsync" with timeout 5000ms
+2026-05-29T13:27:24.649Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/bookings"
+2026-05-29T13:27:24.662Z pw:api Expect "ToBeVisibleAsync" with timeout 5000ms
+2026-05-29T13:27:24.662Z pw:api waiting for Locator("#booking-card").Filter(new() { HasText = "1-FMK6HU" }).Filter(new() { HasText = "1780061243655" })
+2026-05-29T13:27:24.711Z pw:api   locator resolved to <div id="booking-card" data-testid="booking-card" class="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 hover:shadow-md transition-shadow">ΓÇª</div>
+2026-05-29T13:27:24.715Z pw:api waiting for Locator("#nav-events")
+2026-05-29T13:27:24.720Z pw:api   locator resolved to <a href="/events" id="nav-events" data-testid="nav-events" class="Γå╡        px-4 py-2 rounded-lg text-sm font-medium transition-colorsΓå╡        text-gray-600 hover:text-gray-900 hover:bg-gray-100Γå╡      ">Events</a>
+2026-05-29T13:27:24.723Z pw:api attempting click action
+2026-05-29T13:27:24.723Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-29T13:27:24.754Z pw:api   element is visible, enabled and stable
+2026-05-29T13:27:24.754Z pw:api   scrolling into view if needed
+2026-05-29T13:27:24.755Z pw:api   done scrolling
+2026-05-29T13:27:24.761Z pw:api   performing click action
+2026-05-29T13:27:24.772Z pw:api   click action done
+2026-05-29T13:27:24.772Z pw:api   waiting for scheduled navigations to finish
+2026-05-29T13:27:24.777Z pw:api   navigations have finished
+2026-05-29T13:27:24.783Z pw:api Expect "ToBeVisibleAsync" with timeout 5000ms
+2026-05-29T13:27:24.784Z pw:api waiting for Locator("#event-card").Filter(new() { HasText = "1780061243655" })
+2026-05-29T13:27:24.791Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/events"
+2026-05-29T13:27:24.811Z pw:api waiting for Locator("#event-card").Last to be visible
+2026-05-29T13:27:24.815Z pw:api   navigated to "https://eventhub.rahulshettyacademy.com/events"
+2026-05-29T13:27:24.822Z pw:api   locator resolved to visible <article id="event-card" data-testid="event-card" class="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">ΓÇª</article>
+2026-05-29T13:27:24.826Z pw:api waiting for Locator("#event-card").Filter(new() { HasText = "1780061243655" }).Locator("div span.text-xs.font-semibold.text-emerald-600")
+2026-05-29T13:27:24.831Z pw:api   locator resolved to <span class="text-xs font-semibold text-emerald-600">50 seats available</span>

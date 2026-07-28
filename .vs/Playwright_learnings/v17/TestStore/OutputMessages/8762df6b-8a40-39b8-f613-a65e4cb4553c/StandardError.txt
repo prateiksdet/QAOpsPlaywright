@@ -1,0 +1,48 @@
+2026-05-28T13:31:55.930Z pw:api navigating to "https://rahulshettyacademy.com/client/#/auth/login", waiting until "load"
+2026-05-28T13:31:56.148Z pw:api   "commit" event fired
+2026-05-28T13:31:56.148Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/auth/login"
+2026-05-28T13:31:56.280Z pw:api   "domcontentloaded" event fired
+2026-05-28T13:31:56.314Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/auth/login"
+2026-05-28T13:32:04.688Z pw:api   "load" event fired
+2026-05-28T13:32:04.710Z pw:api waiting for Locator("#userEmail")
+2026-05-28T13:32:04.745Z pw:api   locator resolved to <input type="email" id="userEmail" _ngcontent-fnp-c31="" formcontrolname="userEmail" placeholder="email@example.com" class="form-control ng-untouched ng-pristine ng-invalid"/>
+2026-05-28T13:32:04.749Z pw:api   fill("prateik.mallik@outlook.com")
+2026-05-28T13:32:04.749Z pw:api attempting fill action
+2026-05-28T13:32:04.751Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T13:32:04.762Z pw:api waiting for Locator("#userPassword")
+2026-05-28T13:32:04.765Z pw:api   locator resolved to <input type="password" id="userPassword" _ngcontent-fnp-c31="" formcontrolname="userPassword" placeholder="enter your passsword" class="form-control ng-untouched ng-pristine ng-invalid"/>
+2026-05-28T13:32:04.768Z pw:api   fill("Dukekumar@96")
+2026-05-28T13:32:04.768Z pw:api attempting fill action
+2026-05-28T13:32:04.768Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-28T13:32:04.780Z pw:api waiting for Locator("#login")
+2026-05-28T13:32:04.784Z pw:api   locator resolved to <input id="login" name="login" type="submit" value="Login" _ngcontent-fnp-c31="" class="btn btn-block login-btn"/>
+2026-05-28T13:32:04.786Z pw:api attempting click action
+2026-05-28T13:32:04.787Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T13:32:04.818Z pw:api   element is visible, enabled and stable
+2026-05-28T13:32:04.818Z pw:api   scrolling into view if needed
+2026-05-28T13:32:04.820Z pw:api   done scrolling
+2026-05-28T13:32:04.825Z pw:api   performing click action
+2026-05-28T13:32:04.835Z pw:api   click action done
+2026-05-28T13:32:04.835Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T13:32:04.836Z pw:api   navigations have finished
+2026-05-28T13:32:04.841Z pw:api waiting for Locator("div.card-body").Last to be visible
+2026-05-28T13:32:05.043Z pw:api   navigated to "https://rahulshettyacademy.com/client/#/dashboard/dash"
+2026-05-28T13:32:05.186Z pw:api   locator resolved to visible <div class="card-body" _ngcontent-fnp-c39="">ΓÇª</div>
+2026-05-28T13:32:05.192Z pw:api waiting for Locator("div.card-body").First.Locator("b")
+2026-05-28T13:32:05.194Z pw:api   locator resolved to <b _ngcontent-fnp-c39="">ADIDAS ORIGINAL</b>
+2026-05-28T13:32:05.196Z pw:api waiting for Locator("div.card-body").Nth(1).Locator("b")
+2026-05-28T13:32:05.199Z pw:api   locator resolved to <b _ngcontent-fnp-c39="">ZARA COAT 3</b>
+2026-05-28T13:32:05.201Z pw:api waiting for Locator("div.card-body").Nth(1).Locator("i.fa.fa-shopping-cart")
+2026-05-28T13:32:05.204Z pw:api   locator resolved to <i _ngcontent-fnp-c39="" class="fa fa-shopping-cart"></i>
+2026-05-28T13:32:05.205Z pw:api attempting click action
+2026-05-28T13:32:05.205Z pw:api   waiting for element to be visible, enabled and stable
+2026-05-28T13:32:05.233Z pw:api   element is visible, enabled and stable
+2026-05-28T13:32:05.233Z pw:api   scrolling into view if needed
+2026-05-28T13:32:05.234Z pw:api   done scrolling
+2026-05-28T13:32:05.239Z pw:api   performing click action
+2026-05-28T13:32:05.244Z pw:api   click action done
+2026-05-28T13:32:05.244Z pw:api   waiting for scheduled navigations to finish
+2026-05-28T13:32:05.244Z pw:api   navigations have finished
+2026-05-28T13:32:05.790Z pw:api   "networkidle" event fired
+2026-05-28T13:32:58.785Z pw:api waiting for Locator("[routerlink=\"/dashboard/cart\"]") to be visible
+2026-05-28T13:32:58.826Z pw:api   locator resolved to visible <button tabindex="0" _ngcontent-fnp-c38="" class="btn btn-custom" routerlink="/dashboard/cart">ΓÇª</button>

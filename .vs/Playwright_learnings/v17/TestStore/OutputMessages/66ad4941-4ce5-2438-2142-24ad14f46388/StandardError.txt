@@ -1,0 +1,67 @@
+2026-05-27T18:55:11.131Z pw:api navigating to "https://rahulshettyacademy.com/loginpagePractise/", waiting until "load"
+2026-05-27T18:55:11.207Z pw:api   "commit" event fired
+2026-05-27T18:55:11.208Z pw:api   navigated to "https://rahulshettyacademy.com/loginpagePractise/"
+2026-05-27T18:55:11.440Z pw:api   "domcontentloaded" event fired
+2026-05-27T18:55:13.265Z pw:api   "load" event fired
+2026-05-27T18:55:13.276Z pw:api waiting for selector "#username"
+2026-05-27T18:55:13.312Z pw:api   selector resolved to visible <input type="text" id="username" name="username" class=ΓÇª/>
+2026-05-27T18:55:13.317Z pw:api elementHandle.fill("rahulshettyacademy1")
+2026-05-27T18:55:13.317Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T18:55:13.331Z pw:api   element is visible, enabled and editable
+2026-05-27T18:55:13.347Z pw:api waiting for selector "input[name='password']"
+2026-05-27T18:55:13.354Z pw:api   selector resolved to visible <input id="password" type="password" name="password" clΓÇª/>
+2026-05-27T18:55:13.359Z pw:api elementHandle.fill("learning")
+2026-05-27T18:55:13.359Z pw:api   waiting for element to be visible, enabled and editable
+2026-05-27T18:55:13.401Z pw:api   element is visible, enabled and editable
+2026-05-27T18:55:13.415Z pw:api waiting for selector "select.form-control"
+2026-05-27T18:55:13.420Z pw:api   selector resolved to visible <select class="form-control" data-style="btn-info">ΓÇª</select>
+2026-05-27T18:55:13.424Z pw:api   selecting specified option(s)
+2026-05-27T18:55:13.430Z pw:api     selected specified option(s)
+2026-05-27T18:55:14.029Z pw:api   "commit" event fired
+2026-05-27T18:55:14.033Z pw:api   "domcontentloaded" event fired
+2026-05-27T18:55:14.033Z pw:api   "load" event fired
+2026-05-27T18:55:14.061Z pw:api   "networkidle" event fired
+2026-05-27T18:55:14.065Z pw:api navigating to "https://playwright/index.html", waiting until "load"
+2026-05-27T18:55:14.175Z pw:api   "commit" event fired
+2026-05-27T18:55:14.175Z pw:api   navigated to "https://playwright/index.html"
+node:internal/modules/cjs/loader:956
+  const err = new Error(message);
+              ^
+Error: Cannot find module '../../webpack/recorder/manifest.webmanifest'
+Require stack:
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\recorder\recorderApp.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\recorder.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\browserContext.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\fetch.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\dispatchers\playwrightDispatcher.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\index.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\inProcessFactory.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\inprocess.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\index.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\cli\driver.js
+- C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\cli\cli.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at Page._serverRequestInterceptor (C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\recorder\recorderApp.js:84:30)
+    at FrameManager.requestStarted (C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\frames.js:320:20)
+    at CRNetworkManager._onRequest (C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\chromium\crNetworkManager.js:303:134)
+    at CRNetworkManager._onRequestPaused (C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\chromium\crNetworkManager.js:193:12)
+    at CRSession.emit (node:events:513:28)
+    at C:\Users\prate\OneDrive\Desktop\Learnings\Playwright\Code\Playwright_learnings\Playwright_learnings\bin\Debug\net8.0\.playwright\package\lib\server\chromium\crConnection.js:232:14
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\server\\recorder\\recorderApp.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\server\\recorder.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\server\\browserContext.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\server\\fetch.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\server\\dispatchers\\playwrightDispatcher.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\server\\index.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\inProcessFactory.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\inprocess.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\index.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\cli\\driver.js',
+    'C:\\Users\\prate\\OneDrive\\Desktop\\Learnings\\Playwright\\Code\\Playwright_learnings\\Playwright_learnings\\bin\\Debug\\net8.0\\.playwright\\package\\lib\\cli\\cli.js'
+  ]
+}
