@@ -7,7 +7,7 @@ on:
 permissions:
   id-token: write
   contents: read
-
+  
 env:
   PLAYWRIGHT_SERVICE_URL: ${{ secrets.PLAYWRIGHT_SERVICE_URL }}
 
