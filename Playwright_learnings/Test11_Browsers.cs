@@ -78,11 +78,11 @@ namespace Playwright_learnings
         {
             var chrome_browser = await Playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
             {
-                Headless = false
+                Headless = true
             });
             var firefox_browser = await Playwright.Firefox.LaunchAsync(new BrowserTypeLaunchOptions
             {
-                Headless = false
+                Headless = true
             });
 
             var context1 = await chrome_browser.NewContextAsync();
