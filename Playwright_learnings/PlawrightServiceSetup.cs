@@ -1,18 +1,14 @@
-﻿using Azure.Developer.Playwright.NUnit;
-using NUnit.Framework;
+using Azure.Developer.Playwright.NUnit;
 using Azure.Identity;
+using NUnit.Framework;
 
-namespace Playwright_learnings
+namespace Playwright_learnings;
+
+[SetUpFixture]
+public class PlaywrightServiceNUnitSetup : PlaywrightServiceBrowserNUnit
 {
-    internal class PlawrightServiceSetup
+    public PlaywrightServiceNUnitSetup()
+        : base(new DefaultAzureCredential())
     {
-        [SetUpFixture]
-        public class PlaywrightServiceNUnitSetup : PlaywrightServiceBrowserNUnit
-        {
-            public PlaywrightServiceNUnitSetup() : base(
-                credential: new DefaultAzureCredential()
-            )
-            { }
-        }
     }
 }
