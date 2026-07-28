@@ -95,7 +95,7 @@ namespace Playwright_learnings
         {
             var Browser = await Playwright.Chromium.LaunchAsync(new()
             {
-                Headless = false
+                Headless = true
             });
             var Context = await Browser.NewContextAsync();
             var Page = await Context.NewPageAsync();

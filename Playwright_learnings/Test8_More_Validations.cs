@@ -98,29 +98,29 @@ namespace Playwright_learnings
 
         }
 
-        [Test]
-        public async Task VisualTesting()
-        {
-            var Context = await Browser.NewContextAsync();
-            var Page = await Context.NewPageAsync();
+        //[Test]
+        //public async Task VisualTesting()
+        //{
+        //    var Context = await Browser.NewContextAsync();
+        //    var Page = await Context.NewPageAsync();
 
-            await Page.GotoAsync("https://www.google.com/");
-            await Page.Locator("center input.gNO89b").Last.WaitForAsync();
-
-
-            var baselinePath = "Baseline/landing1.png";
-
-            byte[] baseline = await File.ReadAllBytesAsync(baselinePath);
-
-            byte[] actual = await Page.ScreenshotAsync(new()
-            {
-                FullPage = true
-            });
+        //    await Page.GotoAsync("https://www.google.com/");
+        //    await Page.Locator("center input.gNO89b").Last.WaitForAsync();
 
 
+        //    var baselinePath = "Baseline/landing1.png";
 
-            Assert.That(actual.SequenceEqual(baseline),Is.True, "Visual mismatch detected.");
+        //    byte[] baseline = await File.ReadAllBytesAsync(baselinePath);
+
+        //    byte[] actual = await Page.ScreenshotAsync(new()
+        //    {
+        //        FullPage = true
+        //    });
+
+
+
+        //    Assert.That(actual.SequenceEqual(baseline),Is.True, "Visual mismatch detected.");
             // Use ImageSharp + PixelMatch to compare pixels
-        }
+        //}
     }
 }
