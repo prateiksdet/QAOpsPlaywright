@@ -1,0 +1,51 @@
+name: Playwright NUnit Tests
+
+on:
+  push:
+    branches: [ main, master ]
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  PLAYWRIGHT_SERVICE_URL: ${{ secrets.PLAYWRIGHT_SERVICE_URL }}
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Azure Login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Install Playwright
+        run: pwsh bin/Release/net8.0/playwright.ps1 install --with-deps
+
+      - name: Run Tests
+        run: dotnet test --configuration Release --no-build
+
+      - name: Upload Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: NUnit-TestResults
+          path: "**/TestResults/**"
