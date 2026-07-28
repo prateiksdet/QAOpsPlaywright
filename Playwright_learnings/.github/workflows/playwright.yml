@@ -2,58 +2,50 @@ name: Playwright NUnit Tests
 
 on:
   push:
-    branches:
-      - main
-      - master
+    branches: [ main, master ]
 
-  pull_request:
-    branches:
-      - main
-      - master
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  PLAYWRIGHT_SERVICE_URL: ${{ secrets.PLAYWRIGHT_SERVICE_URL }}
 
 jobs:
   test:
 
-    name: Run NUnit Playwright Tests
-
     runs-on: ubuntu-latest
-
-    timeout-minutes: 60
 
     steps:
 
-      # Checkout source code
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      # Install .NET SDK
-      - name: Setup .NET SDK
-        uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
 
-      # Restore NuGet packages
-      - name: Restore Packages
+      - name: Azure Login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Restore
         run: dotnet restore
 
-      # Build solution
-      - name: Build Solution
+      - name: Build
         run: dotnet build --configuration Release --no-restore
 
-      # Install Playwright browsers
-      - name: Install Playwright Browsers
+      - name: Install Playwright
         run: pwsh bin/Release/net8.0/playwright.ps1 install --with-deps
 
-      # Execute NUnit Tests
-      - name: Run NUnit Tests
+      - name: Run Tests
         run: dotnet test --configuration Release --no-build
 
-      # Upload Test Results
-      - name: Upload Test Results
+      - name: Upload Results
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: NUnit-TestResults
-          path: |
-            **/TestResults/**
-          retention-days: 30
+          path: "**/TestResults/**"
