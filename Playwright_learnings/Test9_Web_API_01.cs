@@ -98,7 +98,7 @@ namespace Playwright_learnings
                 Headless = true
             });
             var Context = await Browser.NewContextAsync();
-            var Page = await Context.NewPageAsync();
+            var Page = await Context.NewPageAsync();//Test
 
 
             Console.WriteLine("Token value: " + token);
